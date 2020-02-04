@@ -4,13 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
-#include "ThreeHouse_TCGGameModeBase.generated.h"
+#include "TCGGameModeBase.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class THREEHOUSE_TCG_API AThreeHouse_TCGGameModeBase : public AGameModeBase
+class TCG_API ATCGGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	

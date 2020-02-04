@@ -3,12 +3,12 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class ThreeHouse_TCGTarget : TargetRules
+public class TCGTarget : TargetRules
 {
-	public ThreeHouse_TCGTarget( TargetInfo Target) : base(Target)
+	public TCGTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.AddRange( new string[] { "ThreeHouse_TCG" } );
+		ExtraModuleNames.AddRange( new string[] { "TCG" } );
 	}
 }

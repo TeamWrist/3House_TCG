@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class ThreeHouse_TCG : ModuleRules
+public class TCG : ModuleRules
 {
-	public ThreeHouse_TCG(ReadOnlyTargetRules Target) : base(Target)
+	public TCG(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
