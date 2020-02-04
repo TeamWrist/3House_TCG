@@ -13,5 +13,7 @@ UCLASS()
 class THREEHOUSE_TCG_API AThreeHouse_TCGGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
+public:
+	void stuff(){}
 	
 };
